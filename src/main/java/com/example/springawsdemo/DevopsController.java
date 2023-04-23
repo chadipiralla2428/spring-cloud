@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-
 public class DevopsController {
 	@RequestMapping("/devopstools")
 	public String devopsdemo() {
-		return "hellodemo welcome";
+		return "hellodemo";
 	}
 
 }
